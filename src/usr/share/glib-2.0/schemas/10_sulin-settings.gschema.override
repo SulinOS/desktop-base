@@ -5,4 +5,4 @@ picture-uri = 'file:///usr/share/desktop-base/default-background.svg'
 picture-uri = 'file:///usr/share/desktop-base/default-background.svg'
 
 [org.sulin.desktop]
-base= 'avaiable'
+base= 'available'
