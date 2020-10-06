@@ -1,4 +1,0 @@
-#!/bin/bash
-# Set default environment vars in Sulin
-
-export XDG_CONFIG_DIRS=/etc/xdg/sulin:/etc/xdg

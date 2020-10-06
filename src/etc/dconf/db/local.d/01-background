@@ -1,5 +1,0 @@
-# dconf path
-[org/gnome/desktop/background]
-
-# dconf key names and their corresponding values
-picture-uri='file:///usr/share/desktop-base/default-background.svg'
