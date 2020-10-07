@@ -14,3 +14,6 @@ base = 'available'
 [org.cinnamon.desktop.background]
 picture-uri = 'file:///usr/share/desktop-base/default-background.svg'
 
+[org.freedesktop.Tracker3.Miner.Files]
+crawling-interval = -2
+enable-monitors = false
