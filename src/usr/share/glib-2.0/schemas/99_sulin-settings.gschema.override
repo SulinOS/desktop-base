@@ -4,5 +4,13 @@ picture-uri = 'file:///usr/share/desktop-base/default-background.svg'
 [org.gnome.desktop.screensaver]
 picture-uri = 'file:///usr/share/desktop-base/default-background.svg'
 
+[org.gnome.desktop.interface]
+cursor-theme = 'Adwaita'
+gtk-theme = 'Adwaita-dark'
+
 [org.sulin.desktop]
-base= 'available'
+base = 'available'
+
+[org.cinnamon.desktop.background]
+picture-uri = 'file:///usr/share/desktop-base/default-background.svg'
+
