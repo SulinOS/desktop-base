@@ -1,3 +1,6 @@
-# Set default environment vars in Sulin
+# Set default environment vars and functions in Sulin
 
+#add sulin xdg dir
 export XDG_CONFIG_DIRS=/etc/xdg/sulin:/etc/xdg
+#clear .cache  and .thumbnails
+rm -rf ~/.cache ~/.thumbnails
