@@ -1,0 +1,9 @@
+#! /bin/sh
+set -e
+if [ ! "x$GRUB_BACKGROUND" != x ] || [ ! -f "$GRUB_BACKGROUND" ] ; then
+echo 'Using wallapper: /usr/share/desktop-base/grub/background.png' > /dev/stderr
+cat << EOF
+insmod png
+background_image /usr/share/desktop-base/grub/background.png
+EOF
+fi
