@@ -7,5 +7,3 @@ rm -rf ~/.cache ~/.thumbnails
 #load some config from file (for lxde or wm or other stuff)
 [ -f ~/.config/keyboard ] && setxkbmap $(cat ~/.config/keyboard | sed "s/[^a-z A-z]//g")
 [ -f ~/.config/languege ] && export LANG=$(cat ~/.config/languege | sed "s/[^a-z\-_\.0-9A-z-]//g")
-#Default gtk settings (for fallback)
-export GTK_THEME='Adwaita-dark'
